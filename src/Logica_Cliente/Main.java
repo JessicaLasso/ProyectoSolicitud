@@ -89,7 +89,7 @@ public class Main {
 
                     }
 
-                    conteo = HelperValidacion.ValidarTodo(id);
+                    conteo = HelperValidacion.ValidarVacio(id);
 
                     while (conteo != 0) {
                         System.out.println("DIGITE EL ID DE LA ACTIVIDAD ");
@@ -134,7 +134,7 @@ public class Main {
 
             while (rta > 0) {
                 System.out.println(" DIGITE EL NOMBRE DEL SOLICITANTE ");
-                nombre = scan.nextLine();
+                nombresolicitante = scan.nextLine();
                 rta = HelperValidacion.ValidarVacio(nombresolicitante);
             }
 
@@ -142,7 +142,7 @@ public class Main {
 
             while (conteo != 0) {
                 System.out.println("DIGITE EL NOMBRE DEL SOLICITANTE ");
-                nombre = scan.nextLine();
+                nombresolicitante = scan.nextLine();
                 conteo = HelperValidacion.ValidarTodo(nombresolicitante);
 
             }
